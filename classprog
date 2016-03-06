@@ -1,0 +1,11 @@
+class Basic(object):
+    def__init__(self, name):
+        print "in__init__"
+        self.name = name
+    def show(self):
+            print "in show"
+            print self
+            print 'Basic -- name: %s' % self.name
+x=Basic()
+
+
