@@ -13,15 +13,15 @@ class Menu:
     def getitem(self, name):
         print self.price
 #The below statement doesnt work
-#       print self.d.price
+#       print self.d.items()
 
     def show(self):
             print "in show"
-            print self.name,self.price
 
 m = Menu('dosa','25')
 m.additem()
 m.getitem('dosa')
+m.show()
 
 #m.show()
 
